@@ -1,0 +1,41 @@
+.grid{
+    display: grid;
+    width: 100%;
+    align-items: start;
+    justify-content: space-around;
+    border-radius: 5px;
+    height: 70%;
+}
+.catalogue{
+    display: flex;
+    height: 100%;
+}
+.paginas{
+    display: block;
+    text-align: center;
+    flex-direction: unset;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 100%;
+    background-color: teal;
+    padding-bottom: 15px;
+}
+.Card{
+    display:flex;
+    width: 100%;
+}
+.img{
+
+    width: 250px;
+    height: 250px;
+}
+.img-details{
+    width: 400px;
+    height: 400px;
+}
+.details{
+    align-items: center;
+}
