@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { getProducts } from '../../actions';
+import { getItems } from '../../actions';
 import { useDispatch } from 'react-redux';
 
 const SearchBar = () => {
@@ -8,9 +8,8 @@ const SearchBar = () => {
 
     function submitSearch(e, data) {
         e.preventDefault();
-        dispatch(getProducts(data))
+        dispatch(getItems(data))
     }
-
 
     return (
 

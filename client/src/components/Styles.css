@@ -1,14 +1,7 @@
-.grid{
-    display: grid;
-    width: 100%;
-    align-items: start;
-    justify-content: space-around;
-    border-radius: 5px;
-    height: 70%;
-}
 .catalogue{
     display: flex;
     height: 100%;
+    justify-content: space-around;
 }
 .paginas{
     display: block;
@@ -17,18 +10,15 @@
 }
 .columna{
     display: flex;
-    flex-direction: column;
-    width: fit-content;
-    height: 100%;
+    flex-direction: column; 
     background-color: teal;
     padding-bottom: 15px;
 }
 .Card{
     display:flex;
-    width: 100%;
+    width: 1300px;
 }
 .img{
-
     width: 250px;
     height: 250px;
 }
@@ -38,4 +28,10 @@
 }
 .details{
     align-items: center;
+}
+.all{
+    background-color: lightgray;
+}
+.barTitle{
+    color: black;
 }

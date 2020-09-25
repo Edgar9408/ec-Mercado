@@ -1,7 +1,7 @@
 import React, { Component } from "react"
-import Details from "./Card/Details.js"
-import Navbar from "./Navbar/Navbar.js"
-import Catalog from "./Catalogue/Catalogue.js"
+import Details from "./Card/Details.jsx"
+import Navbar from "./Navbar/Navbar.jsx"
+import Catalog from "./Catalogue/Catalogue.jsx"
 import { Route } from 'react-router-dom';
 
 

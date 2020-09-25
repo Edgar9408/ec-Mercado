@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { getItem } from '../../actions/index.js'
+import { getItem } from '../../actions/index.jsx'
 import { useSelector, useDispatch, } from "react-redux";
 import '../Styles.css'
 
@@ -9,7 +9,6 @@ const Details = (itemId) => {
     useEffect(() => {
         dispatch(getItem(itemId.id));
     }, [])
-    console.log(itemId);
 
     return (
         <div class="catalogue">

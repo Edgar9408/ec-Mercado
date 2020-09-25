@@ -1,16 +1,9 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import SearchBar from "../Search/Search"
-import { getProducts } from '../../actions';
-import { useDispatch } from 'react-redux';
 
 const Navbar = () => {
-    const dispatch = useDispatch();
 
-    function submitSearch(e, data) {
-        e.preventDefault();
-        dispatch(getProducts(data))
-    }
     return (
 
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
